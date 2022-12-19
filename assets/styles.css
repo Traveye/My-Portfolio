@@ -1,20 +1,26 @@
 * {
     background-color: #FF9671;
     font-family: Monaco;
+    scroll-behavior: smooth;
 }
 
 header {
-    display: flex;
-    align-items: baseline;
     color: #fff;
     font-size: large;
-    
+
 }
+li {
+    display: inline;
+    
+ 
+}
+
 a {
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     padding: 25px;
+
 }
 
 a:hover {
