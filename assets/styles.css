@@ -1,0 +1,25 @@
+* {
+    background-color: #FF9671;
+    font-family: Monaco;
+}
+
+header {
+    display: flex;
+    align-items: baseline;
+    color: #fff;
+    font-size: large;
+    
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 25px;
+}
+
+a:hover {
+    background-color: #F9F871;
+    color: #D65DB1;
+    border-radius: 15px;
+}
+
