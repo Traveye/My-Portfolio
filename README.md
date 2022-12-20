@@ -23,9 +23,9 @@ THEN I am taken to that deployed application
 6. WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport.
 
-To build the site I created a large container and in which I placed four individual parent containers. One is for the Header and Navigation, one for the About section, another to link to Work repositories, and a final container for Contact information. Both the large container and subsequent parent containers were set to flex to allow a smooth and responsive design. Additionally, media query was utilized to optimize the display at smaller viewport sizes. For designe, I selected colors to lend a vibrant and modern aesthetic. 
+To build the site I created a large container and in which I placed four individual parent containers. One is for the Header and Navigation, one for the About section, another to link to Work repositories, and a final container for Contact information. Both the large container and subsequent parent containers were set to flex to allow a smooth and responsive design. Additionally, media query was utilized to optimize the display at smaller viewport sizes. I selected background and font colors to lend a vibrant and modern aesthetic. 
 
-After the intial development and deployment of this application, I have gained a greater working understanding of how to structure and organize HTML as well as how to employ flexbox to create dynamic and responsive pages. 
+After the intial development and deployment of this application, I have gained a greater working understanding of how to structure and organize HTML as well as how to employ flexbox to create dynamic and responsive pages. As well, this project highlights for me the importance of planning as part of the development process and the importance of concise and organized HTML elemnts, classes, and IDs. 
 
 ## Installation
 
