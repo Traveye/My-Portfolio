@@ -8,6 +8,7 @@
 .box {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 15px;
     
 }
@@ -102,8 +103,10 @@ li {
     flex-direction: column;
     gap: 15px;
     color: black;
-    min-height: 50vh;
+    
     border-style: solid;
+    width: 100%;
+    
 }
 
 .container3 header {
@@ -128,6 +131,7 @@ li {
     display: flex;
     width: 100%;
     flex: 2 1 1;
+    
    
    
 }
@@ -137,17 +141,6 @@ li {
     flex-wrap: wrap;
 }
 
-/* .card1 {
-   
-    width: 50%;
-    
-}
-
-
-.card2, .card3 {
-    width: max-content;
-    display: inline;
-} */
 
 
 /* /////////////////////styling for Contact Me section ///////////////////// */
@@ -158,17 +151,12 @@ li {
     align-items: baseline;
     max-height: 30vh;
     border-style: solid;
+    
+
    
 
-    
-    
 }
 
-/* .container4 header, div {
-    border-style: solid;
-    
-   
-} */
 
 @media screen and (max-width: 768px) {
     .container1{
