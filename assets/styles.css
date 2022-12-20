@@ -1,19 +1,21 @@
 * {
     font-family: Monaco;
     scroll-behavior: smooth;
+    background-color: #FF9671;
 }
 
 .box {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    
 }
 
-/* styling for top of page //////////////////// */
+/* /////////////////////styling for Top section ///////////////////// */
 .container1 {
     color: #fff;
     font-size: large;
-    background-color: #FFC75F;
+    background-color: #FF9671;
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -22,11 +24,23 @@
 
 }
 
-header h1, nav, ul {
-    width: fit-content;
-    background-color: #FFC75F;
+.container1 img {
+    position: relative;
+    left: 25px;
+    top: 25px;
 }
 
+header h1, nav, ul {
+    width: fit-content;
+    background-color: #FF9671;
+    
+}
+
+h1 {
+    position: relative;
+    right: 580px;
+    align-self: baseline;
+}
 
 li {
     display: inline;                
@@ -34,51 +48,108 @@ li {
  
 }
 
-a {
+.top {
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px;
-    background-color: #FFC75F;
+    background-color: #FF9671;
+    
 
 }
 
-a:hover {
+.top:hover {
     background-color: #F9F871;
     color: #D65DB1;
     border-radius: 15px;
 }
 /* end styling for header  /////////////////////*/
 
-/* styling for about me section //////////////// */
+/* /////////////////////styling for About Me section ///////////////////// */
 
 .container2 {
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
-
+    flex-direction: column;
+    border-style: solid;
+    
+    
 }
 
+.container2 header {
+    width: max-width 30px;
+    margin: auto;
+    float: left;
+    padding: 30px;
+    align-items: center;
+    border-style: solid;
+}
 
-.chapter3 {
+/* .container2 article {
+    float: right;
+} */
+
+    
+
+
+/* /////////////////////styling for Work section ///////////////////// */
+
+.container3 {
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: black
+    min-height: 50vh;
+    border-style: solid;
+    
+    
 
+    
+    
 }
 
-.chapter3 div {
-    padding-left: 30px;
-    padding-right: 30px;
+.container3 header {
+    width: max-width 30px;
+    margin: auto;
+    float: left;
+    padding: 30px;
+    border-style: solid;
 }
 
-.titles {
-    height: 100px;
-    width: 100px;
-    background-color: aqua;
+.card1 {
+   
+    width: 50%;
+    
+}
+
+/* .card1 a {
+    max-width: 100px;
+    max-height: 100px;
+} */
+
+.card2, .card3 {
+    width: max-content;
+    display: inline;
 }
 
 
-section, footer {
-    background-color: #FF9671;
+/* /////////////////////styling for Contact Me section ///////////////////// */
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    max-height: 30vh;
+    border-style: solid;
+   
+
+    
+    
 }
+
+/* .container4 header, div {
+    border-style: solid;
+    
+   
+} */
+
+
