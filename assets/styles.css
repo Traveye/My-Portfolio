@@ -13,8 +13,15 @@
     
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 /* /////////////////////styling for Top section ///////////////////// */
-.container1 {
+.siteHeader  {
     color: #fff;
     font-size: large;
     background-color: #FF9671;
@@ -27,7 +34,7 @@
 
 }
 
-.container1 img {
+.siteHeader  img {
     position: relative;
     left: 25px;
     top: 25px;
@@ -74,7 +81,7 @@ li {
 
 /* /////////////////////styling for About Me section ///////////////////// */
 
-.container2 {
+.aboutMe {
     display: flex;
     flex-direction: column;
     border-style: solid;
@@ -82,7 +89,7 @@ li {
     
 }
 
-.container2 header {
+.aboutMe header {
     width: max-width 30px;
     margin: auto;
     float: left;
@@ -97,7 +104,7 @@ li {
 
 /* /////////////////////styling for Work section ///////////////////// */
 
-.container3 {
+.classProjects {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -109,7 +116,7 @@ li {
     
 }
 
-.container3 header {
+.classProjects header {
     display: flex;
     flex-wrap: wrap;
     width: max-width 30px;
@@ -119,7 +126,7 @@ li {
 
 }
 
-.container3 a {
+.classProjects a {
     border-style: solid;
     width: 100%;
     text-decoration: none;
@@ -127,16 +134,16 @@ li {
 
 }
 
-.container3 a img {
-    display: flex;
-    width: 100%;
-    flex: 2 1 1;
+.classProjects a img {
+    /* display: flex; */
+    max-width: 100%;
+    /* flex: 2 1 1; */
     
    
    
 }
 
-.container3 div {
+.classProjects div {
     display: flex;
     flex-wrap: wrap;
 }
@@ -145,7 +152,7 @@ li {
 
 /* /////////////////////styling for Contact Me section ///////////////////// */
 
-.container4 {
+.contactMe {
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -159,11 +166,24 @@ li {
 
 
 @media screen and (max-width: 768px) {
-    .container1{
+    .siteHeader {
         display: flex;
         flex-flow: column wrap;
     }
-    .container1 li {
+    .siteHeader  li {
         display: block;
     }
+}
+
+.card {
+   flex: 0 0 auto;
+    
+}
+
+#stuff {
+    display: flex;
+}
+
+#specialOne {
+    flex:1 0 auto;
 }

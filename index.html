@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="./assets/styles.css">
   </head>
   <body>
-    <div class="box">
-    <header class="container1">
+    <!-- <div class="box"> -->
+    <header class="siteHeader">
         <img src="./assets/trav headshot.png" alt="photo of me from the head up" height="100" width="100">
         <h1>Travis DuPree</h1> 
-        <nav class="box2">
+        <nav class="navBar">
             <ul>
                 <li><a class="top" href="#about">About Me</a></li>
                 <li><a class="top" href="#work">My Work</a></li>
@@ -24,7 +24,7 @@
     </header>
 
 	
-    <section id="about" class="container2">
+    <section id="about" class="aboutMe">
         <header class="titles">About Me</header>
             <article>
                  <p>Hello and welcome. My name is Travis and I am an aspiring full stack web developer! Currently, I am building profeciency in HTML and CSS. You can access links to my work below and feel free to contact me if you like what you see.</p>
@@ -33,21 +33,28 @@
 
     </section>
 
-    <section id="work" class="container3">
+    <section id="work" class="classProjects">
+
         <header class="titles">Work</header>
-            <div class="card3"><a href="https://traveye.github.io/Landing-Page/"><img src="./assets/horiseon.png" alt="a screenshot of a website" width="100%" height="100%"><br>Site Refactor</a>
-             </div>
-            <div class="card1">
-                <a href="https://traveye.github.io/PreWork-Study-Guide/"><img src="./assets/card1.png" alt="screen shot of deployed application" width="50%" height="50%"><br>Basic HTML,CSS, and JS</a>
+        <div id="stuff">
+            
+            <div class="card" id="specialOne"><a href="https://bhaskell7901.github.io/know-your-government/"><img src="./assets/kyg.png" alt="a screenshot of a website"><br>Know Your Government</a>
             </div>
-            <div class="card2">
-                <a href="https://traveye.github.io/Landing-Page/"><img src="./assets/thehut.png" alt="a simple landing page to collect contact info with an image of a hut" width="50%" height="50%"><br>A Simple Landing Page</a>
+            <div class="card" id="specialOne"><a href="https://traveye.github.io/Landing-Page/"><img src="./assets/horiseon.png" alt="a screenshot of a website"><br>Site Refactor</a>
             </div>
+           <div class="card">
+               <a href="https://traveye.github.io/PreWork-Study-Guide/"><img src="./assets/card1.png" alt="screen shot of deployed application"><br>Basic HTML,CSS, and JS</a>
+           </div>
+           <div class="card">
+               <a href="https://traveye.github.io/Landing-Page/"><img src="./assets/thehut.png" alt="a simple landing page to collect contact info with an image of a hut"><br>A Simple Landing Page</a>
+           </div>
+        </div>
+           
             
 
     </section>
 
-    <section id="contact" class="container4">
+    <div id="contact" class="contactMe">
         <header class="titles">Contact Me:</header>   
             <div>
                 <p>Email: traveye@protonmail.com</p>
@@ -57,8 +64,8 @@
             
         
 
-    </section>
-
     </div>
+
+    <!-- </div> -->
   </body>
 </html>
